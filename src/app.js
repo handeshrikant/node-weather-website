@@ -35,7 +35,7 @@ const forecast = require('./utils/forecast')
  })
 
  app.get('/help',(req, res)=>{
-     res.render('Help',{
+     res.render('help',{
          title: 'Help Page',
          message: 'YOu will get help here',
          name: 'Shrikant'
